@@ -1,0 +1,13 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "mongodb": "mongodb://localhost:27017/serviceGpxGeojson",
+  "public": "../public/",
+  "uploadDir": "../uploads",
+  "auth": {
+    "token": {
+      "secret": "Ji1mCWUSqhqIIMRGh3WsJTrA/36ZpEmyiegiC01Ie8bHs4CwPwSEep5V57RNPBNnh8lfhaaai409MIIg5ob+mA=="
+    },
+    "local": {}
+  }
+}

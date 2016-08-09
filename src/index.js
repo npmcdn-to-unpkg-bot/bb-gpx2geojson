@@ -1,10 +1,7 @@
 'use strict';
 
 const app = require('./app');
-const configPort = app.get('port');
-
-const port = process.env.PORT || configPort;
-
+const port = app.get('port');
 const server = app.listen(port);
 
 server.on('listening', () =>

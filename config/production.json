@@ -1,7 +1,7 @@
 {
   "host": "gpx2geojson.herokuapp.com",
-  "port": 8080,
-  "mongodb": "mongodb://gpx2geojson_app:DEWFwehj3849123ehrewkj3@ds029675.mlab.com:29675/heroku_n38r98xw",
+  "port": "PORT",
+  "mongodb": "MONGODB_URI",
   "public": "../public/",
   "uploadDir": "../uploads",
   "auth": {

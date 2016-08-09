@@ -1,8 +1,9 @@
 {
-  "host": "service-gpx-geojson-app.feathersjs.com",
+  "host": "gpx2geojson.herokuapp.com",
   "port": 80,
   "mongodb": "DATABASE_URL",
   "public": "../public/",
+  "uploadDir": "../uploads",
   "auth": {
     "token": {
       "secret": "FEATHERS_AUTH_SECRET"
